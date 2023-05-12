@@ -7,7 +7,7 @@ const caesarModule = (function () {
 	function shiftLetter(letter, shiftValue) {
 		//setting up the lookup for the new character
 		const lookup = "abcdefghijklmnopqrstuvwxyz";
-		let index = lookup.indexOf(letter.toLowerCase())
+		let index = lookup.indexOf(letter.toLowerCase());
 		
 		//returning the character if non-letter
 		if (index === -1) return letter;
